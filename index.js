@@ -14,3 +14,16 @@ if (engineIndicatorLight === "green") {
 } else {
    console.log("engines are off");
 }
+//
+if (crewStatus === true) { 
+  console.log('crew ready');
+  } else {
+    console.log('crew not ready');
+  }
+  //
+  if (computerStatusCode === 200) {
+    console.log("please standby! compuetr is rebboting");
+  } else if (computerStatusCode === 400); {
+    console.log("success! computer is online");
+  }
+  
